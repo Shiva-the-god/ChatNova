@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "735933688415",
+    "project_id": "chatnova-2fcf0",
+    "storage_bucket": "chatnova-2fcf0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735933688415:android:50b32336a8dae8a67409ea",
+        "android_client_info": {
+          "package_name": "com.example.chatnova"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735933688415-4bq4jo4o3v80cajh1bfqkg3nvv5bri9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcgj1wop4ns2KyVE7xLnbtyCOI3sApEmM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735933688415-4bq4jo4o3v80cajh1bfqkg3nvv5bri9l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
