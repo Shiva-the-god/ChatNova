@@ -8,8 +8,8 @@ import android.text.TextWatcher;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.zegocloud.uikit.prebuilt.call.invite.widget.ZegoSendCallInvitationButton;
-import com.zegocloud.uikit.service.defines.ZegoUIKitUser;
+//import com.zegocloud.uikit.prebuilt.call.invite.widget.ZegoSendCallInvitationButton;
+//import com.zegocloud.uikit.service.defines.ZegoUIKitUser;
 
 import java.util.Collections;
 
@@ -17,7 +17,7 @@ public class profile extends AppCompatActivity {
 
     TextView caller;
     EditText targetuser;
-    ZegoSendCallInvitationButton callbtn;
+//    ZegoSendCallInvitationButton callbtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +26,7 @@ public class profile extends AppCompatActivity {
 
         caller = findViewById(R.id.textView);
         targetuser = findViewById(R.id.editID);
-        callbtn = findViewById(R.id.callBtn);
+//        callbtn = findViewById(R.id.callBtn);
 
         caller.setText("you are : "+getIntent().getStringExtra("caller"));
 
@@ -53,9 +53,9 @@ public class profile extends AppCompatActivity {
 
     public void startvideocall(String targetuserid){
 
-        callbtn.setIsVideoCall(true);
-        callbtn.setResourceID("zego_uikit_call");
-        callbtn.setInvitees(Collections.singletonList(new ZegoUIKitUser(targetuserid,targetuserid)));
+//        callbtn.setIsVideoCall(true);
+//        callbtn.setResourceID("zego_uikit_call");
+//        callbtn.setInvitees(Collections.singletonList(new ZegoUIKitUser(targetuserid,targetuserid)));
     }
 
 }
